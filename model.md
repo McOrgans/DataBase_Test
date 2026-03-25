@@ -13,7 +13,7 @@
 - teacher_name：VARCHAR(50)，非空，教师姓名
 - gender：CHAR(1)，非空，性别
 - title：VARCHAR(50)，职称
-- phone：VARCHAR(20)，唯一，联系电话
+- phone：VARCHAR(20)，唯一，电话
 
 ## 3. 课程表 course
 - course_id：VARCHAR(20)，主键，课程号

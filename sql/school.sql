@@ -4,7 +4,7 @@ USE school_selection_system;
 
 -- 1. 学生表
 CREATE TABLE student (
-    student_id VARCHAR(20) PRIMARY KEY COMMENT '学号',
+    stu_id VARCHAR(20) PRIMARY KEY COMMENT '学号',
     student_name VARCHAR(50) NOT NULL COMMENT '学生姓名',
     gender CHAR(1) NOT NULL COMMENT '性别',
     age INT COMMENT '年龄',
